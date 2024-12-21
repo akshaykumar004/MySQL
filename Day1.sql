@@ -1,7 +1,7 @@
 CREATE DATABASE DEMODB;		-- this will create database 
 create database demodb2;	-- we can write command in lower case also
 drop database demodb;		-- this will delete the database
-drop database demodb2;
+drop database demodb2;  -- this will delete the database demodb2
 
 -- -------------------------------------------
 
