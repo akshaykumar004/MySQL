@@ -1,4 +1,4 @@
--- UNIQUE CONSTRAINTS -------------
+--------------------- UNIQUE CONSTRAINTS ------------
 
 CREATE DATABASE TEMPDB;
 USE TEMPDB;
