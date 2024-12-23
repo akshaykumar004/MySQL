@@ -3,7 +3,7 @@
 -- ------------------------------ TABLE RELATED QUERIES - DML ------------------------------------------
 
 -- *********************** UPDATE  *************************************
--- It will update the existing records.alter
+-- It used to update the existing records.
 
 USE STUDENT;		-- THIS WILL USE STUDENT DATABASE
 SHOW TABLES;		-- THIS WILL SHOW ALL THE TABLES UNDER STUDENT DB.
@@ -54,7 +54,7 @@ ALTER TABLE BOOKS
 MODIFY COLUMN NAME VARCHAR(60);
 
 INSERT INTO BOOKS (ID , NAME) VALUES
-	(1001, 'The Alchemist'),
+    (1001, 'The Alchemist'),
     (1002, 'The Catcher in the Rye'),
     (1003, 'The Kite Runner'),
     (1004, 'Little Women'),
