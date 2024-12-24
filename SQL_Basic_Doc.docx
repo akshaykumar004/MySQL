@@ -1,1 +1,83 @@
-24-12-2024
+Here’s a step-by-step guide to upload all your MySQL queries (e.g., .sql files) to your GitHub account:
+________________________________________
+1. Prepare Your MySQL Query Files
+  •	Ensure all your MySQL queries are saved as .sql files in a folder on your local computer. For example:
+    Like day1.sql , day2.sql etc.
+________________________________________
+
+2. Create a Repository on GitHub
+  1.	Log in to your GitHub account.
+  2.	Click on the + icon in the top-right corner and select New Repository.
+  3.	Fill in the repository details:
+      o	Repository Name: For example, mysql-queries.
+      o	Description: Add a brief description (optional).
+      o	Choose between Public or Private.
+  4.	Click Create Repository.
+
+________________________________________
+
+3. Set Up Git on Your Local Machine
+  1.	If you don’t have Git installed, download and install it from git-scm.com.
+  2.	Configure Git with your GitHub account: 
+      Open GIT CMD -
+      Copy below code -
+      git config --global user.name "Your GitHub Username"
+      git config --global user.email your-email@example.com
+
+________________________________________
+
+4. Initialize a Git Repository
+  1.	Open a terminal or command prompt.
+  2.	Navigate to the folder containing your .sql files:
+      Copy below code -
+      cd /path/to/my-mysql-queries
+  3.  Initialize the folder as a Git repository:
+      Copy below code -
+      git init
+________________________________________
+
+5. Add Files and Commit
+  1.	Add all .sql files to the staging area:
+      Copy below code -
+      git add your_sql_file_name
+  2.	Commit the changes with a message:
+      Copy below code -
+      git commit -m "Your comment like - Initial commit of MySQL queries"
+________________________________________
+
+6. Link Your Repository to GitHub
+  1.	Copy the repository URL from GitHub (e.g., https://github.com/yourusername/mysql-queries.git).
+  2.	Add the URL as the remote origin:
+      Copy below code -
+      git remote add origin https://github.com/yourusername/mysql-queries.git
+
+________________________________________
+
+7. Push Files to GitHub
+  1.	Push the files to the GitHub repository:
+      Copy below code -
+      git branch -M main
+      git push -u origin main
+________________________________________
+
+8. Verify on GitHub
+  •	Go to your GitHub repository URL in a browser.
+  •	You should see all your .sql files uploaded successfully.
+
+________________________________________
+
+9. After Verification on Github
+  1.	If you want to upload again some files or in future so you dont need to follow all above process.
+  2.	Just follow below process.
+    •	Add .sql file to the staging area:
+      Copy below code -
+      git add your_sql_file_name
+    •	Commit the changes with a message:
+      Copy below code -
+      git commit -m "Your comment like - Initial commit of MySQL queries"
+    •	Push the files to the GitHub repository:
+      Copy below code -
+      git push origin main
+
+
+
