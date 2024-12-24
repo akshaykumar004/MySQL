@@ -70,14 +70,14 @@ ________________________________________
   1.	If you want to upload again some files or in future so you dont need to follow all above process.
   2.	Just follow below process.
     •	Add .sql file to the staging area:
-      Copy below code -
-      git add your_sql_file_name
+        Copy below code -
+        git add your_sql_file_name
     •	Commit the changes with a message:
-      Copy below code -
-      git commit -m "Your comment like - Initial commit of MySQL queries"
+        Copy below code -
+        git commit -m "Your comment like - Initial commit of MySQL queries"
     •	Push the files to the GitHub repository:
-      Copy below code -
-      git push origin main
+        Copy below code -
+        git push origin main
 
 
 
